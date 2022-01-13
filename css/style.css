@@ -35,14 +35,24 @@ header {
     list-style: none;
 }
 
-.container {
+#container{
     display: flex;
     justify-content: center;
-    position: absolute;
     /* border: 1px solid blue; */
+    flex-direction: column;
+}
+#how-it-works, #newsletter {
+display: flex;
+justify-content: center;
+    /* position: absolute; */
+    width: 100%;
+}  
+.container {
+    position: absolute;
     margin-top: 70px;
     width: 100%;
 }
+#form {
+    margin: 10px;
 
-.how-it-works {
 }
