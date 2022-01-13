@@ -13,8 +13,9 @@ header {
     /* margin-right: 80px; */
     display: flex;
     align-items: center;
+    background-color: white;
 }
-#header-img img{
+.header img{
     border: 1px solid red;
     position: relative;
     width: 30%;
@@ -55,4 +56,16 @@ justify-content: center;
 #form {
     margin: 10px;
 
+}
+
+#video {
+    width: 956px;
+    height: 538px;
+}
+
+@media (max-width: 600px) {
+    #video {
+        width: 478px;
+        height: auto;
+    }
 }
