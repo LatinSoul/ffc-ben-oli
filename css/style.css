@@ -34,3 +34,15 @@ header {
     /* margin: 10px; */
     list-style: none;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    /* border: 1px solid blue; */
+    margin-top: 70px;
+    width: 100%;
+}
+
+.how-it-works {
+}
